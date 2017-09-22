@@ -14,7 +14,7 @@ saveFig = False
 saveImgs = False
 
 ##1 Frame/30 seconds
-
+analyzeFR = 15
 
 #Number of frames that can pass before a spot's occupancy status is changed from taken to available
 #Is currently at 1, was previously 7 and 2
