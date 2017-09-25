@@ -22,13 +22,17 @@ occlusionFR = 2
 
 site = "Ames St"
 parkingSpotSizeinFt = 17
-# estftperpx = 86.333/1669 #(5parkingx17ft+4linesx1/3ft)/(1679-10px)
+ftperpx = 86.333/1190 #(5parkingx17ft+4linesx1/3ft)/(1493-303px)
+estftperpx = 86.333/1669 #(5parkingx17ft+4linesx1/3ft)/(1679-10px)
+linearRegVals = [ -6.41328433e-04,   3.65880005e-07,   1.26635656e+00]
+##For reference:
+#             estftperpx = 80.0/1310 #(4parkingx20ft)/(1650-340px)
 
 ##Ames street
 ##Spots 1-4
-# spot_lowEnd = 1
-# spot_highEnd = 4
+spot_lowEnd = 1
+spot_highEnd = 4
 
 ##Spots 0-4
-spot_lowEnd = 0
-spot_highEnd = 4
+# spot_lowEnd = 0
+# spot_highEnd = 4
