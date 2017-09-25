@@ -18,11 +18,17 @@ analyzeFR = 15
 
 #Number of frames that can pass before a spot's occupancy status is changed from taken to available
 #Is currently at 1, was previously 7 and 2
-occlusionFR = 1
+occlusionFR = 2
 
 site = "Ames St"
 parkingSpotSizeinFt = 17
+# estftperpx = 86.333/1669 #(5parkingx17ft+4linesx1/3ft)/(1679-10px)
+
 ##Ames street
 ##Spots 1-4
+# spot_lowEnd = 1
+# spot_highEnd = 4
 
 ##Spots 0-4
+spot_lowEnd = 0
+spot_highEnd = 4
