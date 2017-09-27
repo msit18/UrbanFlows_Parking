@@ -11,8 +11,8 @@ from utils.timer import Timer
 
 from utils.blob import im_list_to_blob
 
-
 import numpy as np
+import Parameters as p
 
 class RCNNModel():
     #     CLASSES = ('__background__',
@@ -44,8 +44,8 @@ class RCNNModel():
         # CONF_THRESH = 0.7 #Doesn't matter here
         # NMS_THRESH = 0.2
         # OBJ_THRESH = 0.4
-        NMS_THRESH = 0.2
-        OBJ_THRESH = 0.10
+        NMS_THRESH = p.RCNN_NMS_Thresh
+        OBJ_THRESH = p.RCNN_OBJ_Thresh
         detectedCarsInThisFrame = []
         
         cls_ind = self.class_car_index
